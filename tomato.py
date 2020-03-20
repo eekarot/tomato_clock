@@ -32,7 +32,7 @@ def play_music(flag):
     pygame.mixer.init()
     pygame.mixer.music.load(filepath)
     pygame.mixer.music.play(start=0.0)
-    time.sleep(10)
+    time.sleep(60)
     pygame.mixer.music.stop()
 
 def tomato(minutes):
